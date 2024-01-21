@@ -1,0 +1,53 @@
+
+body{
+  background: linear-gradient(170deg, rgb(53, 89, 234) 2%, rgb(105, 129, 225) 2%, rgb(183, 62, 223) 34%, rgb(228, 92, 228) 71%, rgb(64, 47, 172) 100%);
+}
+h1,p{
+color: #000000;
+}
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(228, 77, 61);
+  background: linear-gradient(0deg, rgb(64, 153, 161) 0%, rgba(251,75,2,1) 100%);
+  }
+  .btn-5:hover {
+    color: #f0094a;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+.dpt_table{
+border: 2px solid black;
+position: absolute;
+top: 350px;
+left: 300px;
+}
